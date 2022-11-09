@@ -1,1 +1,14 @@
 /* Hej hej */
+
+.todo {
+ list-style: none;
+ border: 1px solid grey;
+ margin-top: 2px;
+ width: 300px;
+ padding: 10px 5px;
+ &--done{
+  color: green;
+  text-decoration: line-through;
+  opacity: 0.5;
+ }
+}
